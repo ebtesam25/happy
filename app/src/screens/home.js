@@ -26,8 +26,7 @@ export default function Home() {
   const onButtonToggle = value => {
     setStatus(status === 'checked' ? 'unchecked' : 'checked');
   };
-    const [wallet, setWallet] = useState('1234 ••••••••••••••')
-    const [balance, setBalance] = useState('10518')
+    
     const [post, setPost] = useState([{id:1, name:'Jane Doe',date:'10/01/2021',time:'01:10 AM', img:'https://img.huffingtonpost.com/asset/5880dbed170000880192b060.jpeg?ops=scalefit_720_noupscale', description:'Hello world!', amount:200, emoji:'😊'},
     {id:2, name:'Stephen', date:'11/01/2021',time:'02:22 AM', img:'https://cakewhiz.com/wp-content/uploads/2020/02/Kids-Chocolate-Birthday-Cake-Recipe.jpg', description:'Celebrating my birthday!', amount:200, emoji:'😊'},
     {id:3, name:'Alex',date:'11/02/2021',time:'01:12 AM', img:'https://www.hellyhansen.com/wp-content/uploads/2020/11/kaylinweekendskitrip12.jpg', description:'Best skiing trip ever!', amount:430, emoji:'😄'},

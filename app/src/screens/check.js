@@ -19,12 +19,7 @@ export default function Check() {
         A: require('../assets/fonts/a.ttf'),
 
       });
-      const [hasPermission, setHasPermission] = useState(null);
-      const [scanned, setScanned] = useState(false);
-      const [wallet, setWalletAddress] = useState('');
-      const [name, setName] = useState('');
-      const [amount, setAmount] = useState('');
-      const [confirm, setConfirm] = useState(false);
+     
     const [loading, setLocation] = useState(false);
       useEffect(() => {
         setTimeout(() => {
